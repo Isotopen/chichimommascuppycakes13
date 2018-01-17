@@ -2,8 +2,8 @@
 
 ## Description
 ```
-A brief description of your project
-
+A brief description of your project:
+This project is a redesign of the website for Chichimommas Cuppycakes 13
 ```
 
 
