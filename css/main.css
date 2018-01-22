@@ -21,11 +21,13 @@ body {
 .main-header,
 .main-footer {
 	text-align: center;
+	border: 1px #0699c1;
 }
 
 .col {
 	padding-right: 1em;
 	padding-left: 1em;
+	border: 1px #66cc99;
   }
 
 /* Page Elements */
