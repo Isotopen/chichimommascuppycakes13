@@ -23,6 +23,11 @@ body {
 	text-align: center;
 }
 
+.col {
+	padding-right: 1em;
+	padding-left: 1em;
+  }
+
 /* Page Elements */
 
 .logo {
@@ -42,4 +47,48 @@ body {
 		max-width: 1000px;
 		margin: 0 auto;
 	}
+
+	.logo,
+	.col {
+		float: left;
+	}
+
+	.primary,
+	.secondary {
+		width: 50%;
+	}
+	
+	.nav {
+		float: right;
+	}
+	
+	.nav li {
+		display: inline-block;
+		margin-left: 15px;
+	}
+
+	.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+}
+
+
+@media (min-width: 1025px) {
+
+	.container {
+	  width: 80%;
+	  max-width: 1150px;
+	}
+  
+	.primary {
+	  width: 40%;
+	}
+  
+	.secondary,
+	.tertieary {
+	  width: 30%;
+	}
+  
 }
