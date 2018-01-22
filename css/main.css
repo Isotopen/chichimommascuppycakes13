@@ -18,6 +18,17 @@ body {
 	padding-right: 1em;
 }
 
+.main-header,
+.main-footer {
+	text-align: center;
+}
+
+/* Page Elements */
+
+.logo {
+	width: 300px;
+}
+
 /* Media Queries */
 
 @media (min-width: 769px) {
