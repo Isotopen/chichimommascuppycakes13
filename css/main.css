@@ -81,6 +81,10 @@ body {
 		float: left;
 	}
 
+	.highlight {
+		width: 50%;
+	}
+
 	.primary,
 	.secondary {
 		width: 50%;
@@ -110,6 +114,11 @@ body {
 	.container {
 	  width: 100%;
 	  max-width: 1150px;
+	}
+
+	
+	.highlight {
+		width: 75%;
 	}
   
 	.primary {
