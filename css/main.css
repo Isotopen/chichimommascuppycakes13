@@ -8,21 +8,11 @@ a {
 	color: #66cc99;
 }
 
-body {
-	line-height: 2;
-	color: #9900CC;
-	margin: 0 auto;
-}
-
-/* Layout containers */
-
-.main-header {
-	text-align: center;
-	background: #9900CC;
-	border: 5px solid black;
-	color: #66cc99;
-	width: 100%;
-	font-size: 2em;
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 .container {
@@ -30,12 +20,69 @@ body {
 	padding-right: 1em;
 }
 
+/* NAV bar layout */
+
+.main-header {
+	border: 2px solid black;
+	width: 100%;
+	font-size: 1.5em;
+	background: #9900CC;
+}
+
+.main-nav li {
+	float: right;
+	list-style-type: none;
+}
+
+.main-nav li a {
+    display: block;
+    color: #66cc99;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+}
+
+.main-nav li a:hover {
+    background-color: #8b04b8;
+}
+
+.logo {
+	image-orientation: initial;
+	height: 3.5em;	
+	background: white;
+	padding: 2px;
+	border: 1px solid black;
+}
+
+/* End NAV bar */
+
+/* slideshow */
+
+.slideshow li {
+	display: inline-block;
+	margin-left: 30px;
+}
+
+/* End slideshow */
+
+.clearfix::after {
+	content: " ";
+	display: table;
+	clear: both;
+}
+
+.highlight {
+	text-align: center;
+	border: 1px solid black;
+	padding: 10px;
+}
+
 .main-footer {
 	text-align: center;
-	background: #0699c1;
+	background: #0699C1;
+	border: 2px solid black;
 	width: 100%;
-	padding-top: -1px;
-	padding-bottom: 1px;
+	font-size: .5em;
 }
 
 .col {
@@ -45,23 +92,8 @@ body {
 	height: 100%;
   }
 
-.logo-box {
-	width: 6.5em;
-	height: 2.5em;	
-	background: white;
-}
-
-/* Page Elements */
-
-.logo {
-	width: 200px;
-	image-orientation: initial;
-}
-
-/* Media Queries */
-
 @media (min-width: 769px) {
-
+	
 	.main-header {
 		width: 100%;
 		z-index: 50;
@@ -106,28 +138,29 @@ body {
 		display: table;
 		clear: both;
 	}
+
 }
 
-
 @media (min-width: 1025px) {
-
+  
 	.container {
-	  width: 100%;
-	  max-width: 1150px;
+		width: 100%;
 	}
-
-	
+  
+	  
 	.highlight {
 		width: 75%;
 	}
-  
+	
 	.primary {
-	  width: 30%;
+		width: 30%;
 	}
-  
+	
 	.secondary,
 	.tertieary {
-	  width: 25%;
+		width: 25%;
 	}
-  
+	
 }
+
+/* color: #0699C1  #8b04b8   #66cc99
