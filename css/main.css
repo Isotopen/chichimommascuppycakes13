@@ -26,7 +26,7 @@ a {
 	border: 2px solid black;
 	width: 100%;
 	font-size: 1.5em;
-	background: #9900CC;
+	background: linear-gradient(to top, purple, #8b04b8, purple);
 }
 
 .main-nav li {
