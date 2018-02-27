@@ -56,15 +56,6 @@ a {
 
 /* End NAV bar */
 
-/* slideshow */
-
-.slideshow li {
-	display: inline-block;
-	margin-left: 30px;
-}
-
-/* End slideshow */
-
 .clearfix::after {
 	content: " ";
 	display: table;
@@ -83,6 +74,8 @@ a {
 	border: 2px solid black;
 	width: 100%;
 	font-size: .5em;
+	position: absolute;
+	bottom: 0px;
 }
 
 .col {
