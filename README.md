@@ -4,6 +4,7 @@
 ```
 A brief description of your project:
 This project is a redesign of the website for Chichimommas Cuppycakes 13
+You can view the redesign here: https://isotopen.github.io/eatacupcake13/
 ```
 
 
