@@ -1,11 +1,11 @@
-function myFunction() {
-    document.getElementById("demo").style.color = "white";
+function buttonColor() {
+    document.getElementById("colors").style.color = "white";
     var randomNumber = Math.floor(Math.random() * (3 - 1 + 1)) + 1;
     if (randomNumber === 1) {
-        document.getElementById("demo").style.backgroundColor = "#8b04b8";
+        document.getElementById("colors").style.backgroundColor = "#8b04b8";
     } else if (randomNumber === 2) {
-        document.getElementById("demo").style.backgroundColor = "#66cc99";
+        document.getElementById("colors").style.backgroundColor = "#66cc99";
     } else {
-        document.getElementById("demo").style.backgroundColor = "#0699C1";
+        document.getElementById("colors").style.backgroundColor = "#0699C1";
     }
 }

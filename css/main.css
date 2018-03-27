@@ -3,7 +3,8 @@
 body {
     margin: 0;
     font-family: verdana, sans-serif;
-  }
+    position: relative;
+}
 
 a {
     font-size: 1em;
@@ -26,6 +27,12 @@ img {
 
 .navbar {
     background-color: #8b04b8;
+}
+
+.logo {
+    font-size: 2vw;
+    text-decoration-color: white;
+    color: white;
 }
 
 .carousel-description {
@@ -58,21 +65,9 @@ footer {
 
 /* Menu separations */
 
-#menu {
-    text-align: center;
-    background-color: #66cc99;
-}
-
-#occassions {
-    text-align: center;
-    background-color: #66cc99;
-}
-
-#images {
-    text-align: center;
-    background-color: #66cc99;
-}
-
+#menu,
+#occassions,
+#images,
 #about {
     text-align: center;
     background-color: #66cc99;
@@ -92,18 +87,12 @@ footer {
   
 .fa:hover {
     opacity: 0.7;
-}
-  
-.fa-facebook {
-    background: #3B5998;
+    background: #125688;
     color: white;
 }
   
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-}
-  
+.fa-facebook,
+.fa-twitter,
 .fa-instagram {
     background: #125688;
     color: white;
