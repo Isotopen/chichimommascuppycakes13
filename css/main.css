@@ -24,6 +24,10 @@ img {
     padding-top: 1rem;
 }
 
+.navbar {
+    background-color: #8b04b8;
+}
+
 .carousel-description {
     background-color: #0699C1;
     margin-left: 100px;
@@ -105,4 +109,4 @@ footer {
     color: white;
 }
 
-/* color: #0699C1  #8b04b8   #66cc99 */
+/* color: #0699C1 blue  #8b04b8 purple #66cc99 green */
